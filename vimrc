@@ -2,6 +2,8 @@ set number
 set expandtab
 set tabstop=4
 set shiftwidth=4
+set spell
+set spelllang = en
 set softtabstop=4
 syntax on
 set t_Co=256
