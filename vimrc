@@ -1,3 +1,5 @@
+execute pathogen#infect()
+execute pathogen#helptags()
 set number
 set expandtab
 set tabstop=4
@@ -5,8 +7,6 @@ set shiftwidth=4
 set spell
 set spelllang=en_us
 set softtabstop=4
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
 syntax on
 set t_Co=256
 colorscheme default
