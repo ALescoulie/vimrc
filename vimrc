@@ -7,6 +7,7 @@ set shiftwidth=4
 set spelllang=en_us
 set softtabstop=4
 syntax on
+indent on
 set t_Co=256
 colorscheme default
 autocmd BufRead,BufNewFile *.py syntax on
