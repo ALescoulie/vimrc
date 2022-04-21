@@ -1,13 +1,15 @@
 execute pathogen#infect()
 execute pathogen#helptags()
+call pathogen#infect()
+syntax on
+filetype plugin indent on
 set number
 set expandtab
 set tabstop=4
 set shiftwidth=4
 set spelllang=en_us
 set softtabstop=4
-syntax on
-indent on
+set smartindent
 set t_Co=256
 colorscheme default
 autocmd BufRead,BufNewFile *.py syntax on
